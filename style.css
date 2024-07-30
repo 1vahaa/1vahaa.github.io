@@ -5,14 +5,17 @@ body {
 }
 
 .container {
-    max-width: 390px;
+    max-width: 300px;
 }
 
+.img {
+    width: 120px;
+}
 
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 170px 170px 170px;
 }
 
 .item {
